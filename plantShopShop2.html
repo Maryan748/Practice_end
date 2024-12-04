@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable = no, initial – scale = 1.0, maximum – scale = 1.0, minimum – scale = 1.0">
+        <title>Сукуленти</title>
+        <link rel="stylesheet" href="plantsShop.css">   
+        <link rel="stylesheet" href="plantShopShop1.css">   
+    </head>
+    <body>
+        <div class="home__page">
+            <div class="presentation__store">
+                <header>
+                    <div class="burger_menu"><span></span></div>
+                    <a href="plantsShopHome.html"><img class="header__logo" src="PlantsImages/PlantShopLogo.png" alt="логотип"></a>
+                    <nav class="header__navigation">
+                        <ul class="header__navigation-items">
+                            <li class="nav-home"><a href="plantsShopHome.html">Головна</a></li>
+                            <li><a href="plantsShopService.html">Послуги</a></li>
+                            <li><a href="https://bloomscape.com/plant-life/">Блог</a></li>
+                            <li class="shopList">
+                                <a href="plantsShopShop.html">Магазин</a>
+                                <ul class="navigation__sub-menu">
+                                    <li><a href="plantShopShop1.html">Листяні</a></li>
+                                    <li><a href="plantShopShop2.html">Сукуленти</a></li>
+                                    <li><a href="plantShopShop3.html">Квітучі</a></li>
+                                    <li><a href="plantShopShop4.html">Фруктові</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="plantShopLocation.html">Локація</a></li>
+                        </ul>
+                    </nav>
+                    <button class="check-out">Замовлення (<span>0</span>)</button>
+                </header>
+                <div class="main__home">
+                    <h1 class="main-title">Сукуленти для вашого дому</h1>
+                    <p class="main-description">Додайте елегантності та унікальності своєму простору з сукулентами, які легко доглядати.</p>
+                </div>
+            </div>
+        </div>
+        <div class="shop__menu">
+            <div class="shop__items open-shoplist">
+                <div class="shop__window">
+                    <h2 class="title-name">Сукуленти</h2>
+                    <h3 class="title-count">10 рослин</h3>
+                    <ul class="shop__list">
+                        <li>Алоє</li>
+                        <li>Кактус</li>
+                        <li>Грібля</li>
+                        <li>Ечеверія</li>
+                        <li>Седум</li>
+                        <li>Кратера</li>
+                        <li>Церасус</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close">X</a>
+                    <form id="form">
+                        <legend>Введіть свої дані</legend>
+                        <label for="name">Ім'я:</label>
+                        <input type="text" id="name" name="name" class="name">
+                        <label for="lastname">Прізвище:</label>
+                        <input type="text" id="lastname" name="lastname" class="lastname">
+                        <label for="email">Електронна пошта:</label>
+                        <input type="email" id="email" name="email" class="email">
+                        <label for="phone">Телефон:</label>
+                        <input type="tel" id="phone" name="phone" class="phone" pattern="[0-9]{4}[0-9]{3}[0-9]{4}">
+                        <div class="Form__checkbox">
+                            <input type="checkbox" id="agreement" name="agreement" class="agreement" checked>
+                            <label for="agreement">Я погоджуюсь на обробку персональних даних</label>
+                        </div>
+                        <button class="btn-service" type="submit">Відправити</button>
+                    </form>
+                </div>
+            </div>
+        </div> 
+        <script src="plantsShop.js"></script>
+    </body>
+</html>
